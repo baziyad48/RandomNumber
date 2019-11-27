@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".Number_Generator"
+    android:orientation="vertical"
+    android:padding="8dp">
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="horizontal"
+       android:gravity="center_horizontal">
+
+       <TextView
+           android:id="@+id/frag_tv_number_one"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="0"
+           android:layout_margin="4dp"
+           android:textColor="@android:color/black"
+           android:textSize="64sp"/>
+
+       <TextView
+           android:id="@+id/frag_tv_number_two"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="0"
+           android:layout_margin="4dp"
+           android:textColor="@android:color/black"
+           android:textSize="64sp"/>
+
+       <TextView
+           android:id="@+id/frag_tv_number_three"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="0"
+           android:layout_margin="4dp"
+           android:textColor="@android:color/black"
+           android:textSize="64sp"/>
+
+   </LinearLayout>
+
+    <Button
+        android:id="@+id/frag_btn_start"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="START"/>
+
+    <Button
+        android:id="@+id/frag_btn_stop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="STOP"/>
+
+</LinearLayout>
